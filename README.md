@@ -47,4 +47,4 @@ Finalmente, se dibujan círculos de colores (verdes para objetos positivos y roj
 
 ![Demostración](Video-Project-1.gif)
 
-Uso de la IA: Al probar el demostrador la máscara presentaba ruido que provocaban colisiones erróneas o no detectaba colisión constantemente. Por lo que se preguntó a la IA como poder mejorarlo y esta recomendó aplicar morfología matemática usando las funciones `cv2.getStructuringElement`, `cv2.morphologyEx` y `cv2.morphologyEx`
+Uso de la IA: Al probar el demostrador la máscara presentaba ruido que provocaban colisiones erróneas o no detectaba colisión constantemente. Por lo que se preguntó a la IA como poder mejorarlo y esta recomendó aplicar morfología matemática usando las funciones `cv2.getStructuringElement`, `cv2.morphologyEx` y `cv2.dilate`
